@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.version = "0.0.1"
 
-  s.add_runtime_dependency("rails", ["~> 3.0.0"])
+  s.add_runtime_dependency("rails", [">= 3.0.0"])
   s.add_runtime_dependency("mail_form", [">= 1.3.0"])
   s.add_runtime_dependency("simple_form", [">= 1.3.0"])
   s.add_runtime_dependency("haml-rails", [">= 0.3.4"])
